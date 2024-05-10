@@ -1,0 +1,31 @@
+//user lay haleko value lai k gari swap garne vanney kura ko describe 
+const prompt =require('prompt-sync')();
+
+let value1 = 21;
+let value2 = 23;
+let value3 = undefined;
+value3 = value1
+value1 = value2
+value2 = value3
+
+console.log(value1,value2)
+
+///next tarika user 
+let valw = prompt("Enter Any word");
+let valw2 = prompt("Enter Next word");
+let valw3 ;
+valw3=valw
+valw=valw2
+valw2=valw3
+console.log(valw,valw2)
+
+//next function use garera k gari garne
+ let swap = (a,b,valt) =>{
+   valt = a
+   a = b;
+   b = valt;
+ }
+ let v = prompt("Enter Any word");//rada
+ let va= prompt("Enter Next word");//sita
+ console.log(swap())
+
